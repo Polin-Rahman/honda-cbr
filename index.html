@@ -9,12 +9,58 @@
     <!-- bootstrap stylesheet  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom styleshteet  -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <!-- header starts  -->
     <header>
-        <h1>hellow!</h1>
+        <!-- top part  -->
+        <div class="container-fluid">
+            <div style="height: 698px;" class="row d-flex align-items-center custom-header-background ">
+                <div class="col-lg-6 col-sm-12 text-white custom-header-text">
+                    <div class="p-5 ms-5">
+                        <p><small>Computer-controlled digital transistorized with electronic advance</small></p>
+                        <h1>Honda CBR 300R</h1>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="custom-button" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Purchase
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img class="img-fluid custom-header-img" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade modal-dialog modal-dialog-scrollable" id="staticBackdrop" data-bs-backdrop="static"
+            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Welcome!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Honda Motorcycle & Scooter India Pvt. Ltd. (HMSI), the only Honda in Indian 2Wheeler industry is
+                        the 100% subsidiary of Honda Motor Company Ltd., Japan, started its Indian operations at Manesar
+                        (District Gurgaon, Haryana) in May 2001. Despite being one of the youngest players in the Indian
+                        two-wheelers market, Honda’s consistency of providing high quality products and services has won
+                        the hearts of over 48 million happy Indian customers and catapulted HMSI to become India’s 2nd
+                        largest two-wheeler company today.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- header end  -->
 
