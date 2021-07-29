@@ -8,22 +8,29 @@
     border-radius: 5px;
     padding: 10px 40px;
 }
+.custom-header-img-size{
+    width:552px;
+    height:447px;
+}
+.custom-text-color{
+    color:#E76F51;
+}
+.custom-featured-bike-size{
+    width:288px;
+    height:243px;
+}
 
 /* ----------- Media Queries ------------- */
 
 /* Mobile Devices */
 
 @media only screen and (max-width:577px){
-    .{
-        height:761 px;
-    }
     .custom-header-img{
         width:312px;
         height:260px;
     }
     .custom-header-text{
-        padding: 0;
-        
+        padding: 0;  
     }
    
 }
