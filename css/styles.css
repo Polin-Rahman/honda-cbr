@@ -19,7 +19,26 @@
     width:288px;
     height:243px;
 }
-
+.custom-card-size{
+    width:323px;
+}
+.fa-star{
+    font-size: 16px;
+}
+.fa-star.filled{
+    color:#E76F51;
+}
+.empty{
+    color:#E76F51;
+} 
+.custom-sm-blue-text{
+    font-weight:bold;
+    color:#23A6F0;
+}
+.custom-sm-darkgray-text{
+    font-weight:bold;
+    color:#252B42;
+}
 /* ----------- Media Queries ------------- */
 
 /* Mobile Devices */
